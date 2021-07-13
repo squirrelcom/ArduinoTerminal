@@ -36,7 +36,7 @@ void setup() {
   pinMode(resetPin, INPUT);
   digitalWrite(resetPin, LOW);
   
-  Tft.drawString("UdderOS", getX(), getY(), 2, BLUE);
+  Tft.drawString("PCI/OS", getX(), getY(), 2, BLUE);
   setY(getY() + 20);
   setX(0);
   Tft.drawString("Initializing SD card...", 0, getY(), 1, RED);
